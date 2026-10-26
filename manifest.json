@@ -1,6 +1,6 @@
 {
-  "name": "Dịch nhanh",
-  "short_name": "Dịch",
+  "name": "KA Translate",
+  "short_name": "KA Translate",
   "lang": "vi",
   "start_url": "./",
   "scope": "./",

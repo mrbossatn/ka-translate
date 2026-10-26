@@ -1,4 +1,4 @@
-# Dịch nhanh
+# KA Translate
 
 Web app dịch siêu nhẹ cho điện thoại. Gọi thẳng Groq từ trình duyệt, không backend, không build.
 

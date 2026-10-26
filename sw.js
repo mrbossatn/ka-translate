@@ -1,5 +1,5 @@
 // Chỉ cache giao diện tĩnh. Request tới Groq (khác origin, POST) không bao giờ đi qua cache.
-const CACHE = 'kt-v9';
+const CACHE = 'kt-v10';
 const ASSETS = ['./', './index.html', './manifest.json', './icon.svg'];
 
 self.addEventListener('install', e => {

@@ -3,13 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>Dịch</title>
+<title>KA Translate</title>
 <meta name="theme-color" id="tc" content="#f4f5fa">
 <script>try{var t=localStorage.getItem('kt.theme');if(t==='light'||t==='dark')document.documentElement.dataset.theme=t;var d=t==='dark'||(t!=='light'&&matchMedia('(prefers-color-scheme: dark)').matches);document.getElementById('tc').content=d?'#0b0c10':'#f4f5fa'}catch(e){}</script>
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
-<meta name="apple-mobile-web-app-title" content="Dịch">
+<meta name="apple-mobile-web-app-title" content="KA Translate">
 <link rel="manifest" href="manifest.json">
 <link rel="icon" href="icon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="icon.svg">
@@ -49,7 +49,6 @@ header{position:sticky;top:0;z-index:5;background:var(--glass);-webkit-backdrop-
 .top{display:flex;align-items:center;gap:8px}
 .brand{flex:1;display:flex;align-items:center;gap:10px;font-weight:750;font-size:21px;letter-spacing:-.02em}
 .logo{width:34px;height:34px;border-radius:11px;background:var(--grad);display:grid;place-items:center;color:#fff;box-shadow:0 6px 14px -6px var(--acc)}
-.pill{font-size:11px;font-weight:700;color:var(--acc);background:var(--acc-soft);padding:3px 8px;border-radius:999px;letter-spacing:.02em}
 .icon{width:44px;height:44px;display:grid;place-items:center;border-radius:14px;color:var(--fg);background:var(--surface);border:1px solid var(--line);box-shadow:var(--sh)}
 
 .tabs{position:relative;display:flex;background:var(--surface-2);border:1px solid var(--line);border-radius:14px;padding:4px}
@@ -136,7 +135,7 @@ dialog .lbl{display:block;margin:0 0 8px 2px}
     <div class="top">
       <div class="brand">
         <span class="logo"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8h15M15 4l4 4-4 4M20 16H5M9 12l-4 4 4 4"/></svg></span>
-        Dịch <span class="pill">AI</span>
+        KA Translate
       </div>
       <button class="icon" id="theme" aria-label="Giao diện"></button>
       <button class="icon" id="gear" aria-label="Cài đặt"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 6h9M19 6h1M4 12h3M13 12h7M4 18h11M21 18h-1"/><circle cx="16" cy="6" r="2.5"/><circle cx="10" cy="12" r="2.5"/><circle cx="18" cy="18" r="2.5"/></svg></button>
